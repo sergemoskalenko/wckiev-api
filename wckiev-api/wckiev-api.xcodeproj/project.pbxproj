@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80E279916E641A1004F71BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80E279816E641A1004F71BF /* UIKit.framework */; };
+		A80E279B16E641A1004F71BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80E279A16E641A1004F71BF /* Foundation.framework */; };
+		A80E279D16E641A1004F71BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80E279C16E641A1004F71BF /* CoreGraphics.framework */; };
+		A80E27A316E641A1004F71BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A80E27A116E641A1004F71BF /* InfoPlist.strings */; };
+		A80E27A516E641A1004F71BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E27A416E641A1004F71BF /* main.m */; };
+		A80E27A916E641A1004F71BF /* WKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E27A816E641A1004F71BF /* WKAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A80E279416E641A1004F71BF /* wckiev-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wckiev-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80E279816E641A1004F71BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A80E279A16E641A1004F71BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A80E279C16E641A1004F71BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A80E27A016E641A1004F71BF /* wckiev-api-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wckiev-api-Info.plist"; sourceTree = "<group>"; };
+		A80E27A216E641A1004F71BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A80E27A416E641A1004F71BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A80E27A616E641A1004F71BF /* wckiev-api-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wckiev-api-Prefix.pch"; sourceTree = "<group>"; };
+		A80E27A716E641A1004F71BF /* WKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKAppDelegate.h; sourceTree = "<group>"; };
+		A80E27A816E641A1004F71BF /* WKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80E279116E641A1004F71BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80E279916E641A1004F71BF /* UIKit.framework in Frameworks */,
+				A80E279B16E641A1004F71BF /* Foundation.framework in Frameworks */,
+				A80E279D16E641A1004F71BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80E278916E641A0004F71BF = {
+			isa = PBXGroup;
+			children = (
+				A80E279E16E641A1004F71BF /* wckiev-api */,
+				A80E279716E641A1004F71BF /* Frameworks */,
+				A80E279516E641A1004F71BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80E279516E641A1004F71BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80E279416E641A1004F71BF /* wckiev-api.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80E279716E641A1004F71BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A80E279816E641A1004F71BF /* UIKit.framework */,
+				A80E279A16E641A1004F71BF /* Foundation.framework */,
+				A80E279C16E641A1004F71BF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A80E279E16E641A1004F71BF /* wckiev-api */ = {
+			isa = PBXGroup;
+			children = (
+				A80E27A716E641A1004F71BF /* WKAppDelegate.h */,
+				A80E27A816E641A1004F71BF /* WKAppDelegate.m */,
+				A80E279F16E641A1004F71BF /* Supporting Files */,
+			);
+			path = "wckiev-api";
+			sourceTree = "<group>";
+		};
+		A80E279F16E641A1004F71BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A80E27A016E641A1004F71BF /* wckiev-api-Info.plist */,
+				A80E27A116E641A1004F71BF /* InfoPlist.strings */,
+				A80E27A416E641A1004F71BF /* main.m */,
+				A80E27A616E641A1004F71BF /* wckiev-api-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80E279316E641A1004F71BF /* wckiev-api */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80E27AC16E641A1004F71BF /* Build configuration list for PBXNativeTarget "wckiev-api" */;
+			buildPhases = (
+				A80E279016E641A1004F71BF /* Sources */,
+				A80E279116E641A1004F71BF /* Frameworks */,
+				A80E279216E641A1004F71BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wckiev-api";
+			productName = "wckiev-api";
+			productReference = A80E279416E641A1004F71BF /* wckiev-api.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80E278B16E641A0004F71BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = A80E278E16E641A0004F71BF /* Build configuration list for PBXProject "wckiev-api" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A80E278916E641A0004F71BF;
+			productRefGroup = A80E279516E641A1004F71BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80E279316E641A1004F71BF /* wckiev-api */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80E279216E641A1004F71BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80E27A316E641A1004F71BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80E279016E641A1004F71BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80E27A516E641A1004F71BF /* main.m in Sources */,
+				A80E27A916E641A1004F71BF /* WKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A80E27A116E641A1004F71BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80E27A216E641A1004F71BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80E27AA16E641A1004F71BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80E27AB16E641A1004F71BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80E27AD16E641A1004F71BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wckiev-api/wckiev-api-Prefix.pch";
+				INFOPLIST_FILE = "wckiev-api/wckiev-api-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A80E27AE16E641A1004F71BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wckiev-api/wckiev-api-Prefix.pch";
+				INFOPLIST_FILE = "wckiev-api/wckiev-api-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80E278E16E641A0004F71BF /* Build configuration list for PBXProject "wckiev-api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80E27AA16E641A1004F71BF /* Debug */,
+				A80E27AB16E641A1004F71BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80E27AC16E641A1004F71BF /* Build configuration list for PBXNativeTarget "wckiev-api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80E27AD16E641A1004F71BF /* Debug */,
+				A80E27AE16E641A1004F71BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80E278B16E641A0004F71BF /* Project object */;
+}
